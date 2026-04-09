@@ -18,3 +18,9 @@ Sheet 2 → feedbacks
 
 🔹 Count
 =COUNTIF(D:D,"Yes")
+
+
+cms_id | created_at       | closed_at        | Same Day | Same Hour
+1      | 2021-11-01 10:00 | 2021-11-01 10:30 | Yes      | Yes
+2      | 2021-11-01 11:00 | 2021-11-01 12:00 | Yes      | No
+3      | 2021-11-02 09:00 | 2021-11-02 09:00 | Yes      | Yes
