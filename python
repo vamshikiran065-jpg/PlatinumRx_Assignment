@@ -1,0 +1,19 @@
+File: Python/01_Time_Converter.py
+minutes = int(input("Enter minutes: "))
+
+hours = minutes // 60
+remaining = minutes % 60
+
+print(f"{hours} hrs {remaining} minutes")
+
+
+File: Python/02_Remove_Duplicates.py
+string = input("Enter string: ")
+
+result = ""
+
+for char in string:
+    if char not in result:
+        result += char
+
+print(result)
