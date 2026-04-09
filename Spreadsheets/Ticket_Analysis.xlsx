@@ -1,0 +1,20 @@
+Sheet 1 → ticket
+
+Columns:
+
+cms_id | created_at | closed_at
+
+
+Sheet 2 → feedbacks
+🔹 Formula 1 (Get created_at)
+=VLOOKUP(A2, ticket!A:C, 2, FALSE)
+
+🔹 Formula 2 (Same Day)
+=IF(INT(B2)=INT(C2),"Yes","No")
+
+🔹 Formula 3 (Same Hour)
+=IF(HOUR(B2)=HOUR(C2),"Yes","No")
+
+
+🔹 Count
+=COUNTIF(D:D,"Yes")
